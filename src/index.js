@@ -4,11 +4,5 @@ import reportWebVitals from "./reportWebVitals";
 import Router from "./layouts/Router";
 import "fontsource-roboto";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Router />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
-
+ReactDOM.render(<Router />, document.getElementById("root"));
 reportWebVitals();

@@ -22,8 +22,8 @@ export default function CustomSnackbar(props) {
         <Alert onClose={onClose} severity="error">
           {label}
         </Alert>
-        {children}
       </Snackbar>
+      {children}
     </div>
   );
 }
